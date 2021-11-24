@@ -18,7 +18,7 @@ public class Task {
 		
 		System.out.println("Введите число от 0 до 2");
 		int b = scanner.nextInt();
-		if(b < 0) {									//Валидация вводимых значений
+		if(b < 0) {				//Валидация вводимых значений
 			return "Вы ввели число вне диапазона";
 		}
 		if(b > 2) {
